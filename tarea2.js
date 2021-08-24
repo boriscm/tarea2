@@ -14,6 +14,7 @@ function webServer(req, res){
     index.pipe(res)
 }
 
+
 http.listen(3000,'localhost')
 console.log('servidor corriendo http://localhost:3000/');
 
